@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DMSScript options="272" xmlns="http://www.skyline.be/automation">
+	<Name>SLC-GQIO-CombineColumns</Name>
+	<Description>Combines two GQI columns of the same supported type into a new column.</Description>
+	<Type>Automation</Type>
+	<Author></Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder></Folder>
+
+	<Protocols>
+	</Protocols>
+
+	<Memory>
+	</Memory>
+
+	<Parameters>
+	</Parameters>
+
+	<Script>
+		<Exe id="1" type="csharp">
+			<Value><![CDATA[[Project:SLC-GQIO-CombineColumns]]]></Value>
+			<!--<Param type="debug">true</Param>-->
+			<Param type="preCompile">true</Param>
+			<Param type="libraryName">SLCGQIOCombineColumns</Param>
+			<Message></Message>
+		</Exe>
+	</Script>
+</DMSScript>

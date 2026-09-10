@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+
+# Test and analysis output
+TestResults/
+.coverage
+*.coverage
+*.coveragexml
+.sonarqube/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Operating system files
+.DS_Store
+Thumbs.db
