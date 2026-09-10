@@ -45,7 +45,7 @@ short_description: Combines two same-type GQI columns by preferring the first av
 # A valid URL that points to the source code.
 #   A valid URL
 #   Max length: 2048 characters
-source_code_url: 
+source_code_url: https://github.com/SkylineCommunications/SLC-GQIO-CombineColumns
 
 # [Optional]
 # A valid URL that points to documentation.
@@ -59,9 +59,9 @@ documentation_url:
 #   The name is required; max 256 characters.
 #   The email and url are optional, and should be in valid email/URL formats.
 owners:
-  - name: ''
-    email: 
-    url: 
+  - name: Matthijs Favorel
+    email: matthijs.favorel@skyline.be
+    url: https://github.com/MatthijsFavorel
 
 # [Optional]
 # Tags that allow you to categorize your Catalog items.
