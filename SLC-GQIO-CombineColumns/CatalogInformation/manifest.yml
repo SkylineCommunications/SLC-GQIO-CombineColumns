@@ -15,7 +15,7 @@
 #   - System Health: If the Catalog item is intended to monitor the health of a system.
 #   - User-Defined API: If the Catalog item is a DataMiner Automation script designed as a user-defined API.
 #   - Visual Overview: If the Catalog item is a Microsoft Visio design.
-type: Custom Solution
+type: Data Transformer
 
 # [Required] 
 # The ID of the Catalog item.
@@ -33,7 +33,7 @@ id: 6f668f0d-ba43-4d05-85ae-95d92f092d47
 #   Max length: 100 characters.
 #   Cannot contain newlines.
 #   Cannot contain leading or trailing whitespace characters.
-title: SLC-GQIO-CombineColumns
+title: Combine Columns
 
 # [Optional]
 # General information about the Catalog item.
@@ -71,7 +71,6 @@ owners:
 #   Cannot contain leading or trailing whitespace characters.
 tags:
   - GQI
-  - Data Transformer
   - Column Operator
 
 # [Optional]
