@@ -20,7 +20,7 @@ on:
 jobs:
 
   update_catalog_details:
-    uses: SkylineCommunications/_ReusableWorkflows/.github/workflows/Update Catalog Details Workflow.yml@2e7186898ec4663e1be9ee5bf1cdd575410fdbbc
+    uses: "SkylineCommunications/_ReusableWorkflows/.github/workflows/Update Catalog Details Workflow.yml@2e7186898ec4663e1be9ee5bf1cdd575410fdbbc"
     # secrets:
       # These secrets are only required when:
       # - The repository is not part of the SkylineCommunications GitHub Organization.
