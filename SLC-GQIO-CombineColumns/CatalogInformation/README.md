@@ -1,8 +1,8 @@
-# SLC-GQIO-CombineColumns
+# Combine Columns
 
 ## About
 
-SLC-GQIO-CombineColumns is a GQI data transformer that combines two columns into one typed result column. It uses the first column value when available and falls back to the second column value.
+Combine Columns is a GQI data transformer that combines two columns into one typed result column. It uses the first column value when available and falls back to the second column value.
 
 ## Key Features
 
