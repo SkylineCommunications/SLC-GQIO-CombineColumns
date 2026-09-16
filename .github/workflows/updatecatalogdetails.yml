@@ -1,9 +1,5 @@
 name: Update Catalog Details
 
-permissions:
-  contents: write
-  id-token: write
-
 # Controls when the workflow will run
 on:
   # push:
@@ -11,7 +7,7 @@ on:
   #     - main
   #     - master
 
-  ## If you wish to only trigger on README changes.
+  ## If you wish to only trigger on ReadMe changes. 
   ## Consider: https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#onpushpull_requestpull_request_targetpathspaths-ignore
 
   # Allows you to run this workflow manually from the Actions tab
@@ -19,8 +15,8 @@ on:
 
 jobs:
 
-  update_catalog_details:
-    uses: "SkylineCommunications/_ReusableWorkflows/.github/workflows/Update Catalog Details Workflow.yml@2e7186898ec4663e1be9ee5bf1cdd575410fdbbc"
+  Catalog:
+    uses: SkylineCommunications/_ReusableWorkflows/.github/workflows/Update Catalog Details Workflow.yml@main
     # secrets:
       # These secrets are only required when:
       # - The repository is not part of the SkylineCommunications GitHub Organization.
