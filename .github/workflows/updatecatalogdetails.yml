@@ -1,5 +1,9 @@
 name: Update Catalog Details
 
+permissions:
+  contents: write
+  id-token: write
+
 # Controls when the workflow will run
 on:
   # push:
